@@ -39,7 +39,7 @@ ul#navegacao #pesquisa {
 #sair{
     position: relative;
     float: right;
-
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 #pesquisa{
