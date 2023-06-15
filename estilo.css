@@ -1,12 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbit&family=Poppins&family=Roboto+Mono:wght@100&family=Roboto:wght@100;500&display=swap');
+
+*{
+    font-family: 'Orbit', sans-serif;;
+}
 #corpo{
     font-family: Andale Mono, monospace;
     font-size:25px;
-    background: #cadefd;
+    background: #5b7baa;
 
 }
 
 ul#navegacao{
-    background: linear-gradient(to bottom, #569196, #71bbb7, #569196);
+    background: linear-gradient(to bottom, #597375, #50817f, #597375);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     padding: 0px;
@@ -39,13 +44,13 @@ ul#navegacao #pesquisa {
 #sair{
     position: relative;
     float: right;
-    font-family:Arial, Helvetica, sans-serif;
+
 }
 
 #pesquisa{
     padding: 0px;
     display: flex;
-    background-color: #316d80;
+    background-color: #719092;
     position: relative;
     border-radius: 10px;
     height: 21px;
@@ -74,14 +79,14 @@ ul#navegacao #pesquisa {
     margin: 5px;
     padding: 100px;
     width: 250px;
-    height: 450px;
+    height: 455px;
     float: left;
     box-sizing: border-box;
     position:relative;
     margin-top: 14px;
     font-size: 15px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    box-shadow: 5px 0px 5px 0px rgba(0, 100, 87, 0.568);
+    box-shadow: 0px 0px 4px rgba(0, 23, 100, 0.568);
     text-decoration: none;
 }
 
@@ -93,15 +98,17 @@ ul#navegacao #pesquisa {
 
 div .elemento-perfil{
     position: relative;
-    left: -85px;
-    top:-49px;
+    left: -78px;
+    top:-53px;
     float: left;
     display: inline-flex;
     margin-bottom: 0px 0px;
-    width: 220px;
-    height: 32px;
+    width: 200px;
+    height: 31px;
     border: 1px solid rgb(154, 177, 185);
     background-color: #adecd4bb;
+    border-radius: 10px;;
+    margin: 2px;
     align-items: center;
 }
 
@@ -133,8 +140,8 @@ a {
     margin: 260px;
     font-size: 19px;
     top:-196px;
-    border-radius:  10px 60px 10px 10px ;
-    box-shadow: 5px 0px 5px 0px rgba(0, 100, 87, 0.568);
+    border-radius:  10px 60px 10px 40px ;
+    box-shadow: 0px 0px 4px rgba(0, 23, 100, 0.568);
     color:rgb(68, 74, 78);
     left: 20px;
     padding-inline-end: 10px;
@@ -145,7 +152,7 @@ a {
     color:black;
     display: inline-block;
     margin: 0 1px;
-    font-family:Arial, Helvetica, sans-serif;;
+    font-family: 'Orbit', sans-serif;;
     position: relative;
     left: -5%;
     top:0px;
@@ -154,17 +161,18 @@ a {
 .elemento_resumo{
     display: inline-block;
     margin: 0 3px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Orbit', sans-serif;;
     position: relative;
     left: -5%;
     top:3px;
+
 }
 
 #titulo{
     margin: 0 1px;
     position: relative;
     left: -5%;
-    font-family:Arial, Helvetica, sans-serif;;
+    font-family: 'Orbit', sans-serif;;
     top:-5px;
 }
 
@@ -180,10 +188,10 @@ a {
     width: 590px;
     height: 220px;
     border-radius:  10px ;
-    box-shadow: 5px 0px 5px 0px rgba(0, 100, 87, 0.568);
     float:inline;
     top: 320px;
     left: 270px;
+    box-shadow: 0px 0px 4px rgba(0, 23, 100, 0.568);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
 }
 
@@ -202,6 +210,7 @@ a {
 
 #depoimentos_usuario{
     background-color: #adecd4bb;
+    border-radius: 10px;;
     width: 550px;
     height: 140px;
     top:-410px;
@@ -215,6 +224,7 @@ a {
 .elemento-depoimento {
     display: inline-block;
     font-size: 17px;
+    
     color:rgb(68, 74, 78);
     left: 10px;
     margin-top: 1px;
@@ -250,7 +260,7 @@ a {
 #linha_perfis{
     display: flex;
     padding: 5px;
-    border-bottom: 1px solid rgb(184, 216, 191);
+    
     height: 165px;
 }
 .amigos{
@@ -261,6 +271,7 @@ a {
     margin:4px;
     right: 8px;
     background-color: rgb(184, 216, 191);
+    border-radius: 10px;;
 }
 
 #titulo_amigos{
@@ -305,14 +316,14 @@ a {
     top:-924px;
     left: 472px;
     width: 455px;
-    height: 345px;
+    height: 350px;
  
 }
 
 #elementos_comunidades{
     margin-top: 5px;
     width: 455px;
-    height: 280px;
+    height: 285x;
     width: 455px;
     display: flex;
     flex-wrap: wrap;
@@ -324,6 +335,7 @@ a {
     display: flex;
     justify-content: space-between;
     width: 90%;
+    height: auto;
 }
 
 .linhas_img{
@@ -333,22 +345,19 @@ a {
     margin-left: 7px;
     margin-right: 7px;
     margin-bottom: 7px;
-    height: 140px;
+    height: 145px;
     text-align: center;
     width: 40%;
     background-color: rgb(184, 216, 191);
+    border-radius: 10px;;
 }
 
 .nomes_linhas{
-    margin-top: 1px;
+    margin-top: 0px;
     display: inline-block;
     position: relative;
     color:#305a5a;
-    margin-bottom: 1px;
+    margin-bottom: 10px;
     font-size: 14px;
     text-align: center;
 }
-
-
-
-
